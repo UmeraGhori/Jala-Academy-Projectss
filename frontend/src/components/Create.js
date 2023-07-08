@@ -10,7 +10,7 @@ const Create = () => {
   const collectData = async () => {
     console.log(input)
 
-    let result = await fetch("http://localhost:8000/addEmployee", {
+    let result = await fetch("https://jala-academy-vo0h.onrender.com/addEmployee", {
     method: "post",
     body: JSON.stringify(input),
     headers: {

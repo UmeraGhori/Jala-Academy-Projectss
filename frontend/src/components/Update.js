@@ -9,7 +9,7 @@ const Update = () => {
 
   const updateData = async () => {
     console.log(input);
-    let result = await fetch(`http://localhost:8000/employee/${params.id}`,{
+    let result = await fetch(`https://jala-academy-vo0h.onrender.com/employee/${params.id}`,{
       method: "Put",
       body: JSON.stringify(input),
       headers: {
@@ -42,7 +42,7 @@ const Update = () => {
   }, []);
 
   const getDetails = async () => {
-    let result = await fetch(`http://localhost:8000/employee/${params.id}`);
+    let result = await fetch(`https://jala-academy-vo0h.onrender.com/employee/${params.id}`);
     result = await result.json();
     setInput(result)
   }

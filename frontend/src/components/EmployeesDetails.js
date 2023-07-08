@@ -13,14 +13,14 @@ const EmmployeesDetails = () => {
   }, [])
 
   const getData = async () => {
-    let result = await fetch("http://localhost:8000/employees");
+    let result = await fetch("https://jala-academy-vo0h.onrender.com/employees");
       result = await result.json();
       setData(result);
   }
   console.log(data);
 
   const DeleteData = async (id) => {
-    let result = await fetch(`http://localhost:8000/employee/${id}`, {
+    let result = await fetch(`https://jala-academy-vo0h.onrender.com/employee/${id}`, {
       method: "Delete"
     });
     result = await result.json();
@@ -31,7 +31,7 @@ const EmmployeesDetails = () => {
   const SearchHandle = async (event) => {
     let key = event.target.value;
     if(key){
-    let result = await fetch(`http://localhost:8000/search/${key}`);
+    let result = await fetch(`https://jala-academy-vo0h.onrender.com/search/${key}`);
     result = await result.json();
     if(result){
       setData(result);
