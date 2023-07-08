@@ -20,7 +20,7 @@ const Login = () => {
 
     const CollectData = () => {
         if(input.email === "training@jalaacademy.com" && input.password === "jobprogram"){
-            navigate("/")
+            navigate("/Home")
         } else{
             alert("Please Enter Correct Details")
         }

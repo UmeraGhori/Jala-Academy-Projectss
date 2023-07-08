@@ -7,7 +7,7 @@ const Nav = () => {
 <div>
             
             <ul className='nav-ul'>
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Home">Home</Link></li>
                 <li><Link to="/Create">Create</Link></li>
                 <li><Link to="/EmployeesDetails">Search</Link></li>
                 <li><Link to="/Multiple-Tabs">Multiple-Tabs</Link></li>
@@ -19,7 +19,7 @@ const Nav = () => {
                 <li><Link to="/Popups">Popups</Link></li>
                 <li><Link to="/Links">Links</Link></li>
                 <li><Link to="/iFrames">iFrames</Link></li>
-                <li><Link to="/Login">Logout</Link></li>
+                <li><Link to="/">Logout</Link></li>
                  </ul>
         </div>
 </>

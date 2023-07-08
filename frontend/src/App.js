@@ -23,10 +23,10 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/Login' element={<Login/>}/>
+      <Route path='/' element={<Login/>}/>
       <Route path='/Admin' element={<Admin/>}/>
       <Route path='/Forgot' element={<Forgot/>}/>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/Home' element={<Home/>}/>
       <Route path='/Create' element={<Create/>}/>
       <Route path='/EmployeesDetails' element={<EmmployeesDetails/>}/>
       <Route path='/Update/:id' element={<Update/>}/>
