@@ -1,0 +1,58 @@
+.headers1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes{
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.boxes h5{
+    background-color: white;
+    font-size: 15px;
+    color: grey;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.minpts{
+    background-color: white;
+    border: 1px solid grey;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flink{
+    background-color: white;
+    text-decoration: none;
+}
+
+.fbtn{
+    background-color: rgb(59, 179, 243);
+    border: 1px solid rgb(59, 179, 243);
+}
+
+.Afooter{
+    background-color: rgb(59, 179, 243);
+    color: white;
+    border: 1px solid rgb(59, 179, 243);
+    margin: 50px 10px 30px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}

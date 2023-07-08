@@ -1,0 +1,147 @@
+*{
+    background-color: grey;
+}
+
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.highlight{
+    font-weight: bold;
+    background-color: yellow;
+    padding: 0px;
+    width: 280px;
+    margin-left: 558px;
+    font-size: 12px;
+}
+
+.forms{
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    width: 20%;
+    height: 370px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inside{
+    background-color: white;
+}
+
+.inside h4{
+    text-align: center;
+    background-color: white;
+    color: grey;
+}
+
+.inpt{
+    background-color: white;
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+}
+
+.inpt input{
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: white;
+} 
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+.rembr{
+    background-color: white;
+    width: 40px;
+}
+
+.rembr label{
+    background-color: white;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+.cbtn{
+    background-color: rgb(59, 179, 243);
+    border: 1px solid rgb(59, 179, 243);
+    color: white;
+    width: 100px;
+}
+
+.checks{
+    display: flex;
+    background-color: white;
+}
+
+.rembrs{
+    margin-left: 5px;
+    margin-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.checks-inpt{
+    width: 20px;
+    height: 20px;
+}
+
+.cbtns{
+    background-color: rgb(22, 79, 185);;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.btm{
+    background-color: white;
+    height: 20px;
+}
+
+.btm1 h5{
+    background-color: white;
+    color: grey;
+    font-weight: 300;
+}
+
+.btm2{
+    background-color: white;
+}
+
+.btm2{
+    margin-top: 10px;
+    background-color: rgb(22, 79, 185);
+    color: white;
+    width: 200px;
+    border: 1px solid rgb(22, 79, 185);
+}
+
+.btm3{
+    background-color: white;
+    margin-top: 15px;
+}
+.admin{
+    background-color: white;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: rgb(59, 179, 243);
+    color: white;
+    border: 1px solid rgb(59, 179, 243);
+    margin: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
