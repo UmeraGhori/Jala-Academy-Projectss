@@ -12,7 +12,7 @@ function Iframes() {
     <Nav/>
     <h1 className="heading">iFrames</h1>
     <div className="iframe">
-    <iframe src="https://jala-academy.netlify.app/Home"></iframe>
+    <iframe src="https://jala-magnus-academy.netlify.app/Home"></iframe>
     </div>
     <Footer/>
     </>
