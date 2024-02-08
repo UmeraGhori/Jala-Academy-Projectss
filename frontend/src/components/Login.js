@@ -44,9 +44,9 @@ const Login = () => {
         Email : training@jalaacademy.com
         <p>Password : jobprogram</p>
     </div>
-    <div className='highlight'>
+    {/* <div className='highlight'>
     Learn Everything on Real-Time Scenarios
-    </div>
+    </div> */}
   </div>
 
   <div className="forms">
@@ -78,9 +78,9 @@ const Login = () => {
                 <h5>-OR-</h5>
             </div>
                 <button className='btm2' onClick={Fchange}>Forgot Password</button>
-            <div className='btm3'>
+            {/* <div className='btm3'>
                 <Link to="/Admin" className='admin'>Admin Login</Link>
-            </div>
+            </div> */}
         </div>
     </form>
   </div>

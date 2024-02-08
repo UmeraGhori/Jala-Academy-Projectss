@@ -1,4 +1,4 @@
-.searchEmployee{
+/* .searchEmployee{
     width: 300px;
     margin: 10px;
     height: 38px;
@@ -21,4 +21,62 @@
     margin: 0;
   }
 
+ */
+ .employee-list {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
 
+.employee-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.searchEmployee {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  width: 120px; /* Adjusted width for each list item */
+  text-align: center;
+  font-weight: bold;
+}
+
+
+ul li:nth-child(4) { /* Adjusted width for email */
+  width: 200px;
+}
+
+ul li button, ul li a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+ul li button:hover {
+  background-color: rgb(165, 65, 65);
+}
+ul li a:hover{
+  background-color: blue;
+}
+
+.btns{
+  display: flex; 
+  }
+
+.delete{
+  background-color: red;
+}
+  

@@ -51,29 +51,31 @@ const EmmployeesDetails = () => {
       <li>First Name</li>
       <li>Last Name</li>
       <li>Email</li>
-      <li>Mobile Number</li>
-      <li>Date Of Birth</li>
-      <li>Gender</li>
-      <li>Address</li>
-      <li>Country</li>
-      <li>City</li>
+      <li>Mob No.</li>
+      {/* <li>DOB</li> */}
+      {/* <li>Gender</li>
+      <li>Address</li> */}
+      {/* <li>Country</li> */}
+      {/* <li>City</li> */}
       <li>Skills</li>
     </ul>
   { data.length>0 ? data.map((item, index)=>
-    <ul key={item._id}>
+    <ul key={item.FirstName}>
     <li>{index+1}</li>
     <li>{item.FirstName}</li>
     <li>{item.LastName}</li>
     <li>{item.Email}</li>
     <li>{item.MobileNumber}</li>
-    <li>{item.DateOfBirth}</li>
-    <li>{item.Gender}</li>
-    <li>{item.Address}</li>
-    <li>{item.Country}</li>
-    <li>{item.City}</li>
+    {/* <li>{item.DateOfBirth}</li> */}
+    {/* <li>{item.Gender}</li>
+    <li>{item.Address}</li> */}
+    {/* <li>{item.Country}</li> */}
+    {/* <li>{item.City}</li> */}
     <li>{item.Skills}</li>
-    <li><button onClick={() => DeleteData(item._id)}>Delete</button>
-    <Link to={"/Update/"+item._id}>Edit</Link> </li>
+    <li className='btns'>
+    <button className='delete' onClick={() => DeleteData(item._id)}>Delete</button>
+        <a href={"/Update/" + item._id}>Edit</a>
+    </li>
   </ul>
   ) : <h1>No Result Found</h1>
   }

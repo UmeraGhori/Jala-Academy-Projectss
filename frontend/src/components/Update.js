@@ -1,6 +1,7 @@
 import {React, useEffect, useState} from 'react'
 import { useParams, useNavigate } from 'react-router-dom';
 import Footer from './Footer';
+import Nav from './Nav';
 
 const Update = () => {
 //   const userId = JSON.parse(localStorage.getItem("employees"))._id;
@@ -18,7 +19,7 @@ const Update = () => {
     });
     result = await result.json();
     if(result){
-      navigate("/");
+      navigate("/EmployeesDetails");
       alert("Employee Details are Updated")
     };
   };
@@ -27,10 +28,10 @@ const Update = () => {
     LastName: "",
     Email: "",
     MobileNumber: "",
-    DateOfBirth: "",
+    // DateOfBirth: "",
     Gender: "",
     Address: "",
-    Country: "",
+    // Country: "",
     City: "",
     Skills: "",
   })
@@ -57,6 +58,7 @@ const Update = () => {
 
   return (
     <>
+    <Nav/>
     <div className='add'>
       <h1 className='h1add'>Add Employee Details</h1>
       <div className="details">
@@ -83,12 +85,12 @@ const Update = () => {
       </div>
 <hr />
 
-<div className="details">
+{/* <div className="details">
       <label className='ladd'>Date Of Birth :</label>
       <input className="iadd" type="date" onChange={HandleChange} placeholder='Add Category' value={input.DateOfBirth} name="DateOfBirth" />
       </div>
-<hr />
-<div className="details">
+<hr /> */}
+{/* <div className="details">
       <label className='ladd'>Gender :</label>
       Female
       <input className="iadd" type="radio" onChange={HandleChange} name='Gender' value="Female"/>
@@ -102,9 +104,9 @@ const Update = () => {
       <input className="iadd" type="text" onChange={HandleChange} placeholder='Add Product Name' value={input.Address} name="Address" />
     </div>
 
-<hr />
+<hr /> */}
 
-<div className="details">
+{/* <div className="details">
       <label className='ladd'>Country :</label>
       <select className="iadd" type="text" onChange={HandleChange} name="Country">
       <option value={input.Country}>--Select Country--</option>
@@ -120,12 +122,12 @@ const Update = () => {
       <option value="USA">USA</option>
       </select>
       </div>
-<hr />
+<hr /> */}
 
-<div className="details">
+{/* <div className="details">
       <label className='ladd'>City :</label>
       <select className="iadd" type="text" onChange={HandleChange} name="City">
-      <option value={input.City}>--Select Country--</option>
+      <option>{input.City}</option>
     <option value="Agar">Agar</option>
     <option value="Ajaigarh">Ajaigarh</option>
     <option value={input.City}>Akodia</option>
@@ -137,12 +139,12 @@ const Update = () => {
     <option value={input.City}>Amarpatan</option>
 </select>
       </div>
-<hr />
+<hr /> */}
 
 <div className="details">
       <label className='ladd'>Skills :</label>
       <select className="iadd" type="text" onChange={HandleChange} name="Skills">
-      <option value={input.Skills}>--Select Skills</option>
+      <option>{input.Skills}</option>
       <option value="Html">Html</option>
       <option value="Javascript">Javascript</option>
       <option value="Css">Css</option>
@@ -150,7 +152,7 @@ const Update = () => {
       </select>
     </div>
 <hr />
-<button onClick={updateData} className='btn-add'>Update</button>
+<button onClick={updateData} className='btn-add create'>Update</button>
     </div>
     <Footer/>
     </>
