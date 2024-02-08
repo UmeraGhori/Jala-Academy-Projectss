@@ -85,62 +85,6 @@ const Update = () => {
       </div>
 <hr />
 
-{/* <div className="details">
-      <label className='ladd'>Date Of Birth :</label>
-      <input className="iadd" type="date" onChange={HandleChange} placeholder='Add Category' value={input.DateOfBirth} name="DateOfBirth" />
-      </div>
-<hr /> */}
-{/* <div className="details">
-      <label className='ladd'>Gender :</label>
-      Female
-      <input className="iadd" type="radio" onChange={HandleChange} name='Gender' value="Female"/>
-
-      Male
-      <input className="iadd" type="radio" onChange={HandleChange} name='Gender' value="Male"/>
-      </div>
-<hr />
-<div className="details">
-      <label className='ladd'>Address :</label>
-      <input className="iadd" type="text" onChange={HandleChange} placeholder='Add Product Name' value={input.Address} name="Address" />
-    </div>
-
-<hr /> */}
-
-{/* <div className="details">
-      <label className='ladd'>Country :</label>
-      <select className="iadd" type="text" onChange={HandleChange} name="Country">
-      <option value={input.Country}>--Select Country--</option>
-      <option value="Bangladesh">Bangladesh</option>
-      <option value="Canada">Canada</option>
-      <option value="China">China</option>
-      <option value="France">France</option>
-      <option value="India">India</option>
-      <option value="Japan">Japan</option>
-      <option value="Nepal">Nepal</option>
-      <option value="Sri Lanka">Sri Lanka</option>
-      <option value="UK">UK</option>
-      <option value="USA">USA</option>
-      </select>
-      </div>
-<hr /> */}
-
-{/* <div className="details">
-      <label className='ladd'>City :</label>
-      <select className="iadd" type="text" onChange={HandleChange} name="City">
-      <option>{input.City}</option>
-    <option value="Agar">Agar</option>
-    <option value="Ajaigarh">Ajaigarh</option>
-    <option value={input.City}>Akodia</option>
-    <option value={input.City}>Alampur</option>
-    <option value={input.City}>Alirajpur</option>
-    <option value={input.City}>Alot</option>
-    <option value={input.City}>Amanganj</option>
-    <option value={input.City}>Amarkantak</option>
-    <option value={input.City}>Amarpatan</option>
-</select>
-      </div>
-<hr /> */}
-
 <div className="details">
       <label className='ladd'>Skills :</label>
       <select className="iadd" type="text" onChange={HandleChange} name="Skills">

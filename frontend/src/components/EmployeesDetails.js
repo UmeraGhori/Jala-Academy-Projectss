@@ -52,11 +52,6 @@ const EmmployeesDetails = () => {
       <li>Last Name</li>
       <li>Email</li>
       <li>Mob No.</li>
-      {/* <li>DOB</li> */}
-      {/* <li>Gender</li>
-      <li>Address</li> */}
-      {/* <li>Country</li> */}
-      {/* <li>City</li> */}
       <li>Skills</li>
     </ul>
   { data.length>0 ? data.map((item, index)=>
@@ -66,11 +61,6 @@ const EmmployeesDetails = () => {
     <li>{item.LastName}</li>
     <li>{item.Email}</li>
     <li>{item.MobileNumber}</li>
-    {/* <li>{item.DateOfBirth}</li> */}
-    {/* <li>{item.Gender}</li>
-    <li>{item.Address}</li> */}
-    {/* <li>{item.Country}</li> */}
-    {/* <li>{item.City}</li> */}
     <li>{item.Skills}</li>
     <li className='btns'>
     <button className='delete' onClick={() => DeleteData(item._id)}>Delete</button>
