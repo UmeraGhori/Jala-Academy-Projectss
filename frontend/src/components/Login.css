@@ -119,11 +119,12 @@
 }
 
 .btm2{
-    margin-top: 10px;
-    background-color: rgb(22, 79, 185);
+    margin-top: 40px;
+    margin-left: 68px;
+    background-color: black;
     color: white;
-    width: 200px;
-    border: 1px solid rgb(22, 79, 185);
+    width: 150px;
+    border: 1px solid black;
 }
 
 .btm3{

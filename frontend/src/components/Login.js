@@ -27,7 +27,7 @@ const Login = () => {
     }
 
     const Fchange = () => {
-        navigate("/Forgot")
+        navigate("/forgot")
     }
     
   return (
@@ -44,9 +44,6 @@ const Login = () => {
         Email : training@jalaacademy.com
         <p>Password : jobprogram</p>
     </div>
-    {/* <div className='highlight'>
-    Learn Everything on Real-Time Scenarios
-    </div> */}
   </div>
 
   <div className="forms">
@@ -74,13 +71,7 @@ const Login = () => {
         </div> 
 
         <div className="btm">
-            <div className='btm1'>
-                <h5>-OR-</h5>
-            </div>
-                <button className='btm2' onClick={Fchange}>Forgot Password</button>
-            {/* <div className='btm3'>
-                <Link to="/Admin" className='admin'>Admin Login</Link>
-            </div> */}
+                 <p className='btm2'> Stay Connected </p>
         </div>
     </form>
   </div>
