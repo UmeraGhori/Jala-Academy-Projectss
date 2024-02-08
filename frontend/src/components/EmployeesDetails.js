@@ -46,6 +46,7 @@ const EmmployeesDetails = () => {
   <div className='employee-list'>
     <h1>Employee List</h1>
     <input type="text" placeholder='Search Employee' className='searchEmployee' onChange={SearchHandle} />
+    <div className='lists'>
     <ul>
       <li>S.No.</li>
       <li>First Name</li>
@@ -69,6 +70,7 @@ const EmmployeesDetails = () => {
   </ul>
   ) : <h1>No Result Found</h1>
   }
+  </div>
   </div>
 
   <Footer/>

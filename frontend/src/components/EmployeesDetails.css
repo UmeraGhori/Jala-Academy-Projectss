@@ -4,9 +4,9 @@
   margin: 0 auto;
 }
 
-.employee-list h1 {
-  text-align: center;
-  margin-bottom: 20px;
+.lists{
+max-height: 500px; /* Set a maximum height */
+overflow-y: auto; /* Add vertical scrollbar when needed */
 }
 
 .searchEmployee {

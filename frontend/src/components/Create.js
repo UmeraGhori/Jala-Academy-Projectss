@@ -4,16 +4,20 @@ import Footer from './Footer';
 import "./Create.css";
 
 const Create = () => {
+
+
   const [error, setError] = useState(false);
 
-  const collectData = async () => {
+  const collectData = async (e) => {
+    e.preventDefault();
     // Check if any of the required fields are empty
-    if (!input.FirstName || !input.LastName || !input.Email || !input.MobileNumber || !input.Gender || !input.Address || !input.City || !input.Skills) {
+    if (!input.FirstName || !input.LastName || !input.Email || !input.MobileNumber || !input.Skills) {
       setError(true);
-    }
+      return;
+    } 
 
     // Assuming other validation checks here if needed
-    {
+    
       console.log(input)
 
     let result = await fetch("https://jala-academy-vo0h.onrender.com/addEmployee", {
@@ -26,7 +30,6 @@ const Create = () => {
     result = await result.json();
     console.log(result);
     alert("Employee Details are Created")
-  }
 }
 
   const [input, setInput] = useState({
@@ -99,7 +102,7 @@ const Create = () => {
         {error && !input.Skills && <span className='span-box'>Select valid Skills</span>}
         <hr />
 
-        <button onClick={collectData} className='btn-add create'>Create Employee</button>
+        <button type='button' onClick={collectData} className='btn-add create'>Create Employee</button>
       </div>
       <Footer />
     </>
